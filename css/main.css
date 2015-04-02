@@ -1,0 +1,38 @@
+.article {
+	width: 90vw;
+	list-style: none;
+	cursor: pointer;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
+
+.article:nth-child(even) {
+    background-color: #eafbff;
+}
+
+.article:nth-child(odd) {
+    background-color: #ffeeee;
+}
+
+.article_body {
+	margin-left: 3vw;
+	border: solid;
+	border-width: 1px;
+	border-color: #52c7d9;
+	color: #666666;
+	width: 85vw;
+}
+
+.article_link:link {
+	color: gray;
+	text-decoration: none;
+}
+.article_link:hover {
+	color: gray;
+	text-decoration: underline;
+}
